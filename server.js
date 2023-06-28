@@ -10,12 +10,13 @@ const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
 const db = knex({
-  client: 'pg',
+  //Add your server details here
+  client: '',
   connection: {
-    host : '127.0.0.1',
-    user : 'postgres',
-    password : 'test',
-    database : 'smart_brain'
+    host : '',
+    user : '',
+    password : '',
+    database : ''
   }
 });
 
