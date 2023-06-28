@@ -2,3 +2,4 @@
 Back End code for final project - facial recognition API
 
 You must add your own API key in the src/App.js file to connect to Clarifai.
+For this project, I learned the server side processes using PostgreSQL.
